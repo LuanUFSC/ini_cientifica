@@ -1,1 +1,11 @@
-
+        PROGRAM testeGITHUB
+        IMPLICIT NONE
+        REAL idade
+        PRINT *, 'Qual sua idade?'
+        READ *, idade
+        IF (idade .LE. 0) THEN
+        PRINT *, 'Idade não aceita'
+        ELSE
+        PRINT *, 'Parabéns você tem ', idade
+        END IF
+        END
